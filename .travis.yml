@@ -1,8 +1,12 @@
 language: ruby
 # bundler_args: --without development
-script: "bundle update && bundle exec rake build"
-# rvm:
-#   - 1.9.3
+script:
+  - 'bundle update'
+  - 'bundle exec rake build'
+  - 'bundle exec rake rspec'
+rvm:
+  - 2.0
+  - 2.1
 gemfile:
   - Gemfile
 branches:
