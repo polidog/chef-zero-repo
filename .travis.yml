@@ -1,7 +1,6 @@
 language: ruby
 # bundler_args: --without development
 script:
-  - 'bundle update'
   - 'bundle exec rake build'
   - 'bundle exec rake rspec'
 rvm:
