@@ -1,4 +1,6 @@
 gem 'chef'
 gem 'berkshelf'
 gem 'chef-zero'
+gem 'rubocop', '~> 0.17.0'
+gem 'rspec', '~> 3.0.0'
 gem 'rake'
